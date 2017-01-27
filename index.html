@@ -5,27 +5,210 @@
   		<meta charset="UTF-8">
 		<script src="jquery.min.js"></script>
 		<script src="script.js"></script>
+		<link rel="stylesheet" href="style.css">
 	</head>
 
-	<body>
+<HEAD>
+	<TITLE> 
+	</TITLE>
+</HEAD>
 
-		<ul id="messages"></ul>
+	<ul id="messages"></ul>
 
-		<template id="messagesTemplate">
-		    <li><p></p></li>
-		</template>
-		
-		<form id="getEntityForm" >
-			<h2>Get message's entity</h2>
-			<input type="text" name="message" id="getEntityMessage">
-			<input type="submit" value="Envoyer">
-		</form>
+	<template id="messagesTemplate">
+		<li><p></p></li>
+	</template>
 
-		<form id="sendMessageForm" >
-			<h2>Converse</h2>
-			<input type="text" name="message" id="message2">
-			<input type="submit" value="Envoyer">
-		</form>
+	<form id="getEntityForm" >
+		<h2>Get message's entity</h2>
+		<input type="text" name="message" id="getEntityMessage">
+		<input type="submit" value="Envoyer">
+	</form>
 
-	</body>
-</html>
+	<form id="sendMessageForm" >
+		<h2>Converse</h2>
+		<input type="text" name="message" id="message2">
+		<input type="submit" value="Envoyer">
+	</form>
+	<div class="conversation">
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">bonjour ! </p>
+
+		</div>
+
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">comment ça va ?</p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">oui et toi ?</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">tant mieux ! moi aussi !</p>
+			<p class="texte">de quoi veux tu parler ?</p>
+			<p class="texte">je peux parler d'IA, de chatbots ou des lois de la robotique</p>
+
+   		</diV>
+
+   		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">parlons des chatbots</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">Un chatterbot est un agent conversationnel, c'est à dire un robot avec lequel tu peux discuter d'un sujet précis. Les réponses sont préalablement donné et sont dites en fonction des mots clefs qu'il entend. Je suis d'ailleurs moi-même un chatbot. </p>
+
+			<p class="texte">Veux-tu connaître la différence entre moi et une Intelligence Artificielle ? </p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">oui</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">Un chatterbot est un robot qui va dire un message en fonction de ce qu'on lui a demandé de dire s'il entend ou comprend un mot-clef. Il ne réfléchit pas par lui-même, contrairement aux Intelligences Artificielles. </p>
+			<p class="texte">Une Intelligence Artificielle, est un robot visant à se rapprocher au maximum de l'Homme. Il doit pour cela réfléchir, apprendre et se développer.	</p>
+			<p class="texte">Est-ce que tu as compris ?</p>
+
+   		</diV>
+
+   		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">non</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">Une Intelligence Artificielle est un robot qui va apprendre, qui peut réfléchir et surtout qui va essayer de se rapprocher d'un comportement humain. Pour cela, les concepteurs doivent écrire des algorithmes extrêmement puissants.  </p>
+			<p class="texte">Contrairement aux chatterbots, qui eux, se contentent de répondre une phrase préalablement écrite, non modifiable, qu'ils disant après avoir entendu un mot particulier.</p>
+			<p class="texte">As-tu compris ?</p>
+
+   		</diV>
+
+   		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">non</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">Voici un lien qui t'expliquera beaucoup mieux que moi :  </p>
+			<p class="texte">https://fr.wikipedia.org/wiki/Intelligence_artificielle </p>
+			<p class="texte">alors..</p>
+			<p class="texte">Veux-tu changer de sujet ?</p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">oui</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">De quoi veux-tu parler ?</p>
+			<p class="texte">Je peux te parler d'IA, de chabots ou des lois de la robotique.</p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">des lois de la robotique</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">La première loi est : un robot ne peut porter atteinte à la vie de l'homme ou laisser un homme être blessé. </p>
+			<p class="texte">Veux-tu que je continue ?</p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">oui</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">la deuxième loi est: Un robot doit obéir aux humains en toute circonstance sauf si cet ordre entre en contradiction avec la première loi.</p>
+			<p class="texte">Veux-tu que je continue ?</p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">oui</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">la troisième loi est : Un robot doit protéger son existence tant que cette protection n'entre pas en conflit avec la première ou la seconde loi. </p>
+			<p class="texte">Voila !</p>
+			<p class="texte">alors...</p>
+			<p class="texte">Veux-tu changer de sujet ? </p>
+
+		</div>
+
+		<div class="message message-envoye">
+
+			<h3 class="titre">message utilisateur</h3>
+			<p class="texte">non</p>
+
+		</div>
+
+		<div class="message message-recu">
+
+			<h3 class="titre">message bot</h3>
+			<p class="texte">ok ! N'hésite pas à revenir vers moi ! </p>
+			<p class="texte">Bye ! </p>
+
+		</div>
+
+	</div>
+
+		<label for="fname">message utilisateur</label>
+  		<input type="text" id="fname" name="fname" placeholder="message.." >
+  		<input type="button" value="envoye">
+	</BODY>
+</HTML>

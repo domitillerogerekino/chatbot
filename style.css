@@ -1,14 +1,79 @@
 
-li {
-	margin: 5px;
-	padding: 10px;
-	border: solid 2px black;
-	border-radius: 10px;
-	list-style: none;
-}
+	<style>
+	* {
+		margin: 0;
+		padding: 0;
+	}
 
+	.message-envoye .texte{
+		border-radius: 25px;
+		background: #606DE8;
+		padding: 10px;
+		width: 100px;
+	}
 
-.list2 > * {
-	background: linear-gradient(to right, white, red);
-	display: inline-block;
-}
+	.message-recu .texte{
+		border-radius: 25px;
+		background: #FF7E34;
+		position: relative;
+   		left: 300px;
+		padding: 20px;
+		width: 325px;	
+	}
+
+	.message-recu .titre{
+		border-radius: 25px;
+		background: #FF461B;
+		position: relative;
+   		left: 300px;
+		padding: 20px;
+		width: 150px;
+	}
+	 
+	.message-envoye .titre{
+		border-radius: 25px;
+		background: #6738FF;
+		padding: 20px;
+		width: 100px;
+		height: 20px;
+		width: 200px;
+	}
+
+	input {
+		position: fixed;
+    	bottom: 0;
+    	border: 2px solid red;
+    	height: 20px;
+    	border-radius: 25px;
+    	width: 100%;
+    	padding: 20px;
+	}
+
+	input[type=button] {
+		background-color: red;
+    	border: 2px solid red;
+    	color: black;
+    	padding: 20px;
+    	text-decoration: none;
+    	cursor: pointer;
+    	width: 10%;
+    	right: 0;
+    	bottom: 0;
+	}
+
+	label {
+		background-color: white;
+		position: fixed;
+    	bottom: 42;
+    	border: 2px solid red;
+    	width: 97%;
+    	padding: 20px;
+
+	}
+
+	.conversation {
+		height: 87.5vh;
+		overflow: auto;
+	}
+
+	</style>
