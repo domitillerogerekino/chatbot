@@ -1,25 +1,31 @@
-<HTML> 
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Chatbot</title>
+  		<meta charset="UTF-8">
+		<script src="jquery.min.js"></script>
+		<script src="script.js"></script>
+	</head>
 
-<HEAD>
-	<TITLE> 
-	</TITLE>
-</HEAD>
+	<body>
 
-	<BODY>texte simple<BR>
+		<ul id="messages"></ul>
 
-	<B>texte en gras</B><BR> 
+		<template id="messagesTemplate">
+		    <li><p></p></li>
+		</template>
+		
+		<form id="getEntityForm" >
+			<h2>Get message's entity</h2>
+			<input type="text" name="message" id="getEntityMessage">
+			<input type="submit" value="Envoyer">
+		</form>
 
-	<STRONG>texte en gras</STRONG><BR> 
+		<form id="sendMessageForm" >
+			<h2>Converse</h2>
+			<input type="text" name="message" id="message2">
+			<input type="submit" value="Envoyer">
+		</form>
 
-	<I>texte en italique</I><BR>
-
-	<EM>texte en italique</EM><BR>
-
-	<B><I>texte en gras et en italique</I></B><BR>
-
-	<FONT SIZE=5>texte</FONT>
-
-	<FONT COLOR="#0000FF">en bleu</FONT>
-<!--C'est fini-->
-</BODY> 
-</HTML>
+	</body>
+</html>

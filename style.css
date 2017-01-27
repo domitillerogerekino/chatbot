@@ -1,0 +1,14 @@
+
+li {
+	margin: 5px;
+	padding: 10px;
+	border: solid 2px black;
+	border-radius: 10px;
+	list-style: none;
+}
+
+
+.list2 > * {
+	background: linear-gradient(to right, white, red);
+	display: inline-block;
+}
