@@ -40,39 +40,41 @@
 	}
 
 	input {
-		position: fixed;
-    	bottom: 0;
-    	border: 2px solid red;
-    	height: 20px;
-    	border-radius: 25px;
-    	width: 100%;
-    	padding: 20px;
-	}
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    border: 2px solid red;
+    height: 0px;
+    border-radius: 25px;
+    width: 95.2%;
+    padding: 20px;
+}
 
 	input[type=button] {
-		background-color: red;
-    	border: 2px solid red;
-    	color: black;
-    	padding: 20px;
-    	text-decoration: none;
-    	cursor: pointer;
-    	width: 10%;
-    	right: 0;
-    	bottom: 0;
-	}
+    background-color: red;
+    border: 2px solid red;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    width: 10%;
+    right: 0;
+    bottom: 0;
+    left: 90.01%;
+}
 
 	label {
-		background-color: white;
-		position: fixed;
-    	bottom: 42;
-    	border: 2px solid red;
-    	width: 97%;
-    	padding: 20px;
-
-	}
+    background-color: white;
+    position: fixed;
+    bottom: 42px;
+    left: 0;
+    border: 2px solid red;
+    width: 97%;
+    padding: 20px;
+}
 
 	.conversation {
-		height: 87.5vh;
+		height: 86vh;
 		overflow: auto;
 	}
 
